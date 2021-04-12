@@ -1,0 +1,179 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family:sans-serif;
+}
+
+#nav-bar{
+	background: linear-gradient(rgb(23, 59, 8), rgb(24, 121, 7));
+	position: sticky;
+	top:0;
+	z-index:10;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navbar{
+    padding: 0 !important;
+}
+
+.nav-link{
+	align-items: center;
+	height: 3rem;
+}
+
+.nav-link:hover{
+    background-color:rgb(33, 75, 33);
+}
+
+.navbar-brand img{
+	height: 40px;
+	padding-left: 20px;
+}
+
+.collapse{
+	margin-left: 42rem;
+}
+
+.navbar-nav li{
+	padding: 0px 15px;
+}
+
+.navbar-nav li a{
+	color:#fff !important;
+	font-weight: 600;
+	float: right;
+	text-align: left;
+}
+
+.fa-bars{
+	color:#fff;
+	font-size:30px !important;
+}
+
+.navbar-toggler{
+	outline:none !important;
+}
+/*---banner section--*/
+
+#main{
+	text-align: center;
+	background-color:#248000;
+	color:#fff;
+}
+
+.container h1 img{
+	padding-bottom: 10px;
+}
+
+/*---service section---*/
+#features1{
+	text-align: center;
+	padding: 10% 15%;
+}
+
+#features{
+	height: 90%;
+    text-align: center;
+	padding: 6% 6%;
+	background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.6)), url('../banking/Images/b.jpg') right no-repeat;
+	background-size: cover;
+}
+
+#features button{
+	background-color: rgb(44, 95, 24);
+	border: none;
+	outline: none;
+	align-items: center;
+	text-align: center;
+	border-radius: 1rem;
+	padding: 1rem;
+	text-transform: uppercase;
+}
+
+#features button:hover{
+	background-color: rgb(61, 158, 23);
+}
+
+.features1 h3{
+	padding:5px;
+	margin-top: 25px;
+	text-transform:uppercase;
+}
+
+#features h4{
+	color: rgb(0, 255, 21);
+	font-weight: 900;
+	padding:5px;
+	margin-top:25px;
+	text-transform:uppercase;
+}
+
+.title::before{
+	content:'';
+	background:#229817;
+	height:5px;
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	transform:translatey(63px);
+}
+
+.title::after{
+	content:'';
+	background:#229817;
+	height:10px;
+	width:50px;
+	margin-left:auto;
+	margin-right:auto;
+    margin-bottom:40px;
+    display: block;
+	transform:translatey(8px);
+}
+
+#features .btn-primary{
+	box-shadow:none;
+	padding:10px 25px;
+	border:none;
+	align-content: center;
+	background-image:linear-gradient(to right,#229817,#0b4106)
+}
+
+/* Action*/
+  
+#action{
+    background-color:#0c800c;
+    padding: 3% 10%;
+    text-align: center;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.main{
+    font-size: 3rem;
+    line-height: 1.5;
+    padding: 10px 0px;
+}
+
+.fa{
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* footer */
+
+#footer{
+	background-color:rgb(34, 34, 34);
+    color:#fff;
+    padding: 1% 5%;
+    text-align: center;
+}
